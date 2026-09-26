@@ -108,9 +108,9 @@
                 </div>
 
                 <picture>
-                    <source setsrc="./img/desktop/hero-desktop@1x.webp 1x, ./img/desktop/hero-desktop@2x.webp 2x"
+                    <source srcset="./img/desktop/hero-desktop@1x.webp 1x, ./img/desktop/hero-desktop@2x.webp 2x"
                         media="(min-width:1200px)">
-                    <source setsrc="./img/mobile/hero-mobile@1x.webp 1x, ./img/mobile/hero-mobile@2x.webp 2x"
+                    <source srcset="./img/mobile/hero-mobile@1x.webp 1x, ./img/mobile/hero-mobile@2x.webp 2x"
                         media="(min-width: 402px)">
                     <img src="./img/hero.webp" alt="hero-img" width="1240px">
                 </picture>
@@ -141,14 +141,22 @@
 
                     <article class="tour-card tour-card-main">
 
-                        <img class="tour-img" src="./img/mobile/.jpg" alt="Beautiful desert landscape">
+                        <picture>
+                            <source
+                                srcset="./img/desktop/carrier-desktop@1x.webp 1x, ./img/desktop/carrier-desktop@2x.webp 2x"
+                                media="(min-width:1200px)">
+                            <source
+                                srcset="./img/mobile/carrier-mobile@1x.webp 1x, ./img/mobile/carrier-mobile@2x.webp 2x"
+                                media="(min-width: 402px)">
+                            <img src="./img/carrier.webp" alt="carrier">
+                        </picture>
 
                         <a href="#events" class="tour-overlay">
                             <span>Explore our adventures</span>
 
                             <span class="round-arrow">
                                 <svg>
-                                    <use href="./img/symbol-defs.svg#arow-3"></use>
+                                    <use href="./img/symbol-defs.svg#gorithontal-arrow"></use>
                                 </svg>
                             </span>
                         </a>
@@ -174,7 +182,15 @@
 
                     <article class="tour-card tour-card-book">
 
-                        <img class="tour-img" src="./img/tour-city.png" alt="Colorful buildings in a beautiful city">
+                        <picture>
+                            <source
+                                srcset="./img/desktop/stairs-desktop@1x.webp 1x, ./img/desktop/stairs-desktop@2x.webp 2x"
+                                media="(min-width:1200px)">
+                            <source
+                                srcset="./img/mobile/stairs-mobile@1x.webp 1x, ./img/mobile/stairs-mobile@2x.webp 2x"
+                                media="(min-width: 402px)">
+                            <img src="./img/stairs.webp" alt="stairs">
+                        </picture>
 
                         <div class="tour-book-content">
 
@@ -184,7 +200,7 @@
 
                             <a href="#footer" class="round-arrow">
                                 <svg>
-                                    <use href="./img/symbol-defs.svg#arow-3"></use>
+                                    <use href="./img/symbol-defs.svg#gorithontal-arrow"></use>
                                 </svg>
                             </a>
 
@@ -195,11 +211,19 @@
 
                     <article class="tour-card tour-card-video">
 
-                        <img class="tour-img" src="./img/tour-horses.png" alt="Travelers riding horses">
+                        <picture>
+                            <source
+                                srcset="./img/desktop/desert-desktop@1x.webp 1x, ./img/desktop/desert-desktop@2x.webp 2x"
+                                media="(min-width:1200px)">
+                            <source
+                                srcset="./img/mobile/desert-mobile@1x.webp 1x, ./img/mobile/desert-mobile@2x.webp 2x"
+                                media="(min-width: 402px)">
+                            <img src="./img/desert.webp" alt="desert">
+                        </picture>
 
                         <button class="play-btn" type="button" aria-label="Play video">
                             <svg>
-                                <use href="./img/symbol-defs.svg#arow-3"></use>
+                                <use href="./img/symbol-defs.svg#start-play"></use>
                             </svg>
                         </button>
 
@@ -232,13 +256,19 @@
                         Start Exploring
 
                         <svg>
-                            <use href="./img/symbol-defs.svg#arow-3"></use>
+                            <use href="./img/symbol-defs.svg#right-arrow" fill="var(--color-black)"></use>
                         </svg>
                     </a>
 
                 </div>
 
-                <img class="about-img" src="./img/about-img.png" alt="Colorful houses on a rocky seaside cliff">
+                <picture>
+                    <source srcset="./img/desktop/town-desktop@1x.webp 1x, ./img/desktop/town-desktop@2x.webp 2x"
+                        media="(min-width:1200px)">
+                    <source srcset="./img/mobile/town-mobile@1x.webp 1x, ./img/mobile/town-mobile@2x.webp 2x"
+                        media="(min-width: 402px)">
+                    <img class="about-img" src="./img/town.webp" alt="desert">
+                </picture>
 
             </div>
         </section>
@@ -256,15 +286,15 @@
                     </h2>
 
                     <div class="slider-controls">
-                        <button class="slider-btn" type="button" aria-label="Previous event">
+                        <button class="slider-btn slider-btn-next" type="button" aria-label="Previous event">
                             <svg>
-                                <use href="./img/symbol-defs.svg#arow-3"></use>
+                                <use href="./img/symbol-defs.svg#arrow"></use>
                             </svg>
                         </button>
 
-                        <button class="slider-btn slider-btn-next" type="button" aria-label="Next event">
+                        <button class="slider-btn " type="button" aria-label="Next event">
                             <svg>
-                                <use href="./img/symbol-defs.svg#arow-3"></use>
+                                <use href="./img/symbol-defs.svg#arrow"></use>
                             </svg>
                         </button>
                     </div>
@@ -276,7 +306,14 @@
 
                     <article class="event-card">
 
-                        <img class="event-img" src="./img/event-desert.png" alt="Traveler exploring a desert">
+                        <picture>
+                            <source
+                                srcset="./img/desktop/dubai-desktop@1x.webp 1x, ./img/desktop/dubai-desktop@2x.webp 2x"
+                                media="(min-width:1200px)">
+                            <source srcset="./img/mobile/dubai-mobile@1x.webp 1x, ./img/mobile/dubai-mobile@2x.webp 2x"
+                                media="(min-width: 402px)">
+                            <img class="dubai-img" src="./img/dubai.webp" alt="dubai">
+                        </picture>
 
                         <div class="event-info">
 
@@ -307,7 +344,11 @@
 
                     <article class="event-card">
 
-                        <img class="event-img" src="./img/event-sea.png" alt="Traveler enjoying a sailing adventure">
+                        <picture>
+                            <source srcset="./img/desktop/sea-desktop@1x.webp 1x, ./img/desktop/sea-desktop@2x.webp 2x"
+                                media="(min-width:1200px)">
+                            <img class="sea-img" src="./img/sea.webp" alt="sea">
+                        </picture>
 
                         <div class="event-info">
 
@@ -346,7 +387,13 @@
         <section class="planning">
             <div class="container planning-container">
 
-                <img class="planning-img" src="./img/planning-img.png" alt="Beautiful colorful European town">
+                <picture>
+                    <source srcset="./img/desktop/journey-desktop@1x.webp 1x, ./img/desktop/journey-desktop@2x.webp 2x"
+                        media="(min-width:1200px)">
+                    <source srcset="./img/mobile/journey-mobile@1x.webp 1x, ./img/mobile/journey-mobile@2x.webp 2x"
+                        media="(min-width: 402px)">
+                    <img class="journey-img" src="./img/journey.webp" alt="journey">
+                </picture>
 
                 <div class="planning-content">
 
@@ -363,7 +410,7 @@
                         Start Exploring
 
                         <svg>
-                            <use href="./symbol-defs.svg#arow-3"></use>
+                            <use href="./symbol-defs.svg#right-arrow" fill="var(--color-black)"></use>
                         </svg>
                     </a>
 
@@ -391,15 +438,15 @@
 
                     <div class="slider-controls">
 
-                        <button class="slider-btn" type="button" aria-label="Previous testimonial">
+                        <button class="slider-btn slider-btn-next" type="button" aria-label="Previous event">
                             <svg>
-                                <use href="./symbol-defs.svg#arow-3"></use>
+                                <use href="./img/symbol-defs.svg#arrow"></use>
                             </svg>
                         </button>
 
-                        <button class="slider-btn slider-btn-next" type="button" aria-label="Next testimonial">
+                        <button class="slider-btn " type="button" aria-label="Next event">
                             <svg>
-                                <use href="./symbol-defs.svg#arow-3"></use>
+                                <use href="./img/symbol-defs.svg#arrow"></use>
                             </svg>
                         </button>
 
@@ -425,7 +472,15 @@
 
                         <div class="testimonial-author">
 
-                            <img class="author-img" src="./img/avatar-sarah.png" alt="Sarah Thompson">
+                            <picture>
+                                <source
+                                    srcset="./img/desktop/sarah-desktop@1x.webp 1x, ./img/desktop/sarah-desktop@2x.webp 2x"
+                                    media="(min-width:1200px)">
+                                <source
+                                    srcset="./img/mobile/sarah-mobile@1x.webp 1x, ./img/mobile/sarah-mobile@2x.webp 2x"
+                                    media="(min-width: 402px)">
+                                <img class="sarah-img" src="./img/sarah.webp" alt="sarah">
+                            </picture>
 
                             <div>
                                 <h3 class="author-name">Sarah Thompson</h3>
@@ -441,17 +496,21 @@
 
                         <span class="quote-icon">“</span>
 
-                        <p class="testimonial-text">
-                            As a solo traveler, I was nervous about planning my
-                            first trip. Trail Bliss made every step incredibly
-                            easy and stress-free. Their team helped me discover
-                            hidden gems and find the most amazing places.
-                            I can't wait to travel with them again!
+                        <p class="testimonial-text">As a solo traveler, I was nervous about planning my trip. TrailBliss
+                            not only crafted an itinerary that matched my
+                            interests but also ensured I felt safe and supported throughout. Thanks to them, I
+                            discovered hidden gems I’d never have
+                            found on my own. Highly recommend!
                         </p>
 
                         <div class="testimonial-author">
 
-                            <img class="author-img" src="./img/avatar-michael.png" alt="Michael Chen">
+                            <picture>
+                                <source
+                                    srcset="./img/desktop/michel-desktop@1x.webp 1x, ./img/desktop/michel-desktop@2x.webp 2x"
+                                    media="(min-width:1200px)">
+                                <img class="michel-img" src="./img/michel.webp" alt="michel">
+                            </picture>
 
                             <div>
                                 <h3 class="author-name">Michael Chen</h3>
@@ -479,7 +538,13 @@
 
                 <div class="faq-container">
 
-                    <img class="faq-img" src="./img/faq-img.png" alt="Beach with colorful umbrellas">
+                    <picture>
+                        <source srcset="./img/desktop/beach-desktop@1x.webp 1x, ./img/desktop/beach-desktop@2x.webp 2x"
+                            media="(min-width:1200px)">
+                        <source srcset="./img/mobile/beach-mobile@1x.webp 1x, ./img/mobile/beach-mobile@2x.webp 2x"
+                            media="(min-width: 402px)">
+                        <img class="beach-img" src="./img/beach.webp" alt="beach">
+                    </picture>
 
                     <div class="faq-list">
 
@@ -487,7 +552,11 @@
                             <summary class="faq-question">
                                 What kind of trips does TrailBliss specialize in?
 
-                                <span class="faq-plus"></span>
+                                <span>
+                                    <svg class="faq-plus">
+                                        <use href="./img/symbol-defs.svg#plus"></use>
+                                    </svg>
+                                </span>
                             </summary>
 
                             <p class="faq-answer">
@@ -504,7 +573,11 @@
                             <summary class="faq-question">
                                 Can you customize my travel itinerary?
 
-                                <span class="faq-plus"></span>
+                                <span>
+                                    <svg class="faq-plus">
+                                        <use href="./img/symbol-defs.svg#plus"></use>
+                                    </svg>
+                                </span>
                             </summary>
 
                             <p class="faq-answer">
@@ -519,7 +592,11 @@
                             <summary class="faq-question">
                                 Do you offer group travel packages?
 
-                                <span class="faq-plus"></span>
+                                <span>
+                                    <svg class="faq-plus">
+                                        <use href="./img/symbol-defs.svg#plus"></use>
+                                    </svg>
+                                </span>
                             </summary>
 
                             <p class="faq-answer">
@@ -534,7 +611,11 @@
                             <summary class="faq-question">
                                 What kind of accommodation can you arrange?
 
-                                <span class="faq-plus"></span>
+                                <span>
+                                    <svg class="faq-plus">
+                                        <use href="./img/symbol-defs.svg#plus"></use>
+                                    </svg>
+                                </span>
                             </summary>
 
                             <p class="faq-answer">
@@ -549,7 +630,11 @@
                             <summary class="faq-question">
                                 How do I book a trip with TrailBliss?
 
-                                <span class="faq-plus"></span>
+                                <span>
+                                    <svg class="faq-plus">
+                                        <use href="./img/symbol-defs.svg#plus"></use>
+                                    </svg>
+                                </span>
                             </summary>
 
                             <p class="faq-answer">
@@ -564,7 +649,11 @@
                             <summary class="faq-question">
                                 Can you help with travel insurance?
 
-                                <span class="faq-plus"></span>
+                                <span>
+                                    <svg class="faq-plus">
+                                        <use href="./img/symbol-defs.svg#plus"></use>
+                                    </svg>
+                                </span>
                             </summary>
 
                             <p class="faq-answer">
@@ -586,142 +675,113 @@
 
     <!-- FOOTER -->
 
-    <footer class="footer" id="footer">
-        <div class="container">
+    <!-- FOOTER -->
+<footer class="footer" id="footer">
+    <div class="container">
 
-            <div class="footer-container">
+        <div class="footer-container">
 
-                <div class="footer-brand">
+            <div class="footer-brand">
+                <a class="footer-logo" href="./index.html">
+                    <svg class="footer-leaf">
+                        <use href="./img/symbol-defs.svg#leaf"></use>
+                    </svg>
+                    <span>Trail Bliss</span>
+                </a>
 
-                    <a class="footer-logo" href="./index.html">
-                        <svg>
-                            <use href="./symbol-defs.svg#logo"></use>
-                        </svg>
-
-                        <span>Trail Bliss</span>
-                    </a>
-
-                    <p class="footer-address">
-                        2118 Thornridge Cir. Syracuse,<br>
-                        Connecticut 35624
-                    </p>
-
-                </div>
-
-
-                <div class="footer-column">
-
-                    <h3 class="footer-title">Contact</h3>
-
-                    <a class="footer-link" href="mailto:hello@trailbliss.com">
-                        hello@trailbliss.com
-                    </a>
-
-                    <a class="footer-link" href="tel:+15550150000">
-                        (555) 015-0000
-                    </a>
-
-                </div>
-
-
-                <div class="footer-column">
-
-                    <h3 class="footer-title">Quick links</h3>
-
-                    <a class="footer-link" href="#tours">Contact</a>
-                    <a class="footer-link" href="#events">Pricing</a>
-                    <a class="footer-link" href="#faq">Terms and Conditions</a>
-
-                </div>
-
-
-                <div class="footer-column">
-
-                    <h3 class="footer-title">Follow us</h3>
-
-                    <a class="footer-link" href="#">Facebook</a>
-                    <a class="footer-link" href="#">Instagram</a>
-                    <a class="footer-link" href="#">YouTube</a>
-
-                </div>
-
-
-                <div class="footer-cta">
-
-                    <p>
-                        We are available all the time. Contact us today!
-                    </p>
-
-                    <a href="mailto:hello@trailbliss.com" class="footer-contact-btn" aria-label="Contact us">
-
-                        <svg>
-                            <use href="./symbol-defs.svg#arow-3"></use>
-                        </svg>
-
-                    </a>
-
-                </div>
-
+                <p class="footer-address">
+                    2118 Thornridge Cir. Syracuse,<br>
+                    Connecticut 35624
+                </p>
             </div>
 
 
-            <div class="footer-bottom">
+            <div class="footer-column">
+                <h3 class="footer-title">Contact</h3>
+
+                <a class="footer-link" href="mailto:hello@trailbliss.com">
+                    hello@trailbliss.com
+                </a>
+                <a class="footer-link" href="tel:+13195550115">
+                    (319) 555-0115
+                </a>
+                <a class="footer-link" href="tel:+12255550118">
+                    (225) 555-0118
+                </a>
+            </div>
+
+
+            <div class="footer-column">
+                <h3 class="footer-title">Quick links</h3>
+
+                <a class="footer-link" href="#tours">Contact</a>
+                <a class="footer-link" href="#events">Refund policy</a>
+                <a class="footer-link" href="#faq">Terms and Conditions</a>
+            </div>
+
+
+            <div class="footer-column">
+                <h3 class="footer-title">Follow us</h3>
+
+                <a class="footer-link" href="#">Facebook</a>
+                <a class="footer-link" href="#">Instagram</a>
+                <a class="footer-link" href="#">YouTube</a>
+            </div>
+
+
+            <div class="footer-cta">
+                <p>
+                    We are available all the time. Contact us today!
+                </p>
+
+                <a href="mailto:hello@trailbliss.com" class="footer-contact-btn" aria-label="Contact us">
+                    <svg>
+                        <use href="./img/symbol-defs.svg#gorithontal-arrow"></use>
+                    </svg>
+                </a>
+            </div>
+
+            <div class="footer-social-wrapper">
+                <ul class="social-list">
+                    <li>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <svg>
+                                <use href="./img/symbol-defs.svg#twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <svg>
+                                <use href="./img/symbol-defs.svg#linkedine"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg>
+                                <use href="./img/symbol-defs.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link" aria-label="Website">
+                            <svg>
+                                <use href="./img/symbol-defs.svg#basketball"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
 
                 <p class="copyright">
                     © 2025. All rights reserved.
                 </p>
-
-                <ul class="social-list">
-
-                    <li>
-                        <a href="#" class="social-link" aria-label="Twitter">
-                            <svg viewBox="0 0 24 24">
-                                <path
-                                    d="M21 6.1a7.5 7.5 0 0 1-2.1.6 3.7 3.7 0 0 0 1.6-2 7.4 7.4 0 0 1-2.3.9 3.7 3.7 0 0 0-6.4 2.5c0 .3 0 .6.1.9a10.5 10.5 0 0 1-7.6-3.9 3.7 3.7 0 0 0 1.1 4.9 3.7 3.7 0 0 1-1.7-.5v.1a3.7 3.7 0 0 0 3 3.6 3.7 3.7 0 0 1-1.7.1 3.7 3.7 0 0 0 3.4 2.6A7.4 7.4 0 0 1 3 17.1a10.5 10.5 0 0 0 16.2-8.8v-.5A7.5 7.5 0 0 0 21 6.1Z"
-                                    fill="currentColor" />
-                            </svg>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#" class="social-link" aria-label="LinkedIn">
-                            <svg viewBox="0 0 24 24">
-                                <path
-                                    d="M5 3.5A2.5 2.5 0 1 0 5 8.5a2.5 2.5 0 0 0 0-5ZM3 10h4v11H3V10Zm6 0h3.8v1.5h.1a4.2 4.2 0 0 1 3.7-2c4 0 4.7 2.6 4.7 6V21h-4v-4.9c0-1.2 0-2.8-1.8-2.8s-2.1 1.3-2.1 2.7V21H9V10Z"
-                                    fill="currentColor" />
-                            </svg>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#" class="social-link" aria-label="Instagram">
-                            <svg viewBox="0 0 24 24">
-                                <rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor"
-                                    stroke-width="2" />
-                                <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2" />
-                                <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" />
-                            </svg>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#" class="social-link" aria-label="Website">
-                            <svg viewBox="0 0 24 24">
-                                <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2" />
-                                <ellipse cx="12" cy="12" rx="4" ry="9" fill="none" stroke="currentColor"
-                                    stroke-width="1.5" />
-                                <path d="M3 12h18M5.5 6.5h13M5.5 17.5h13" fill="none" stroke="currentColor"
-                                    stroke-width="1.5" />
-                            </svg>
-                        </a>
-                    </li>
-
-                </ul>
-
             </div>
 
         </div>
-    </footer>
+
+    </div>
+</footer>
 
 </body>
 
